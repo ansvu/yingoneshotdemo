@@ -1,0 +1,21 @@
+apiVersion: v1
+entries:
+  yingoneshotdemo:
+  - annotations:
+      charts.openshift.io/archs: x86_64
+      charts.openshift.io/name: RedHat Test
+      charts.openshift.io/provider: RedHat
+      charts.openshift.io/supportURL: https://github.com/ansvu/yingoneshotdemo
+    apiVersion: v2
+    appVersion: 1-24
+    created: "2025-01-14T18:22:38.610743-06:00"
+    description: A Helm chart for Kubernetes
+    digest: 32f2e028c4f003efca6fe2f09c8470ac1ee2aec39ff10366ccf07a63197ae7bd
+    icon: https://www.example.com/chart-icon.png
+    kubeVersion: '>=1.20.0'
+    name: yingoneshotdemo
+    type: application
+    urls:
+    - https://ansvu.github.io/yingoneshotdemo/yingoneshotdemo-0.1.7.tgz
+    version: 0.1.7
+generated: "2025-01-14T18:22:38.609867-06:00"
